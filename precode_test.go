@@ -22,6 +22,7 @@ func TestMainHandlerWhenOk(t *testing.T) {
 	       t.Errorf("expected status code: %d, got %d", http.StatusOK, status)
 	   }
 	*/
+
 }
 
 func TestMainHandlerWhenMissingCity(t *testing.T) {
